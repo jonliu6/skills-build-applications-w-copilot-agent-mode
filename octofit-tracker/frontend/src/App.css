@@ -1,3 +1,69 @@
+.octofit-logo {
+  height: 48px;
+  margin-right: 16px;
+  vertical-align: middle;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #2563eb 0%, #38bdf8 100%) !important;
+  box-shadow: 0 2px 8px rgba(37,99,235,0.1);
+}
+.navbar-brand, .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+}
+.nav-link.active, .nav-link:hover {
+  color: #fbbf24 !important;
+}
+
+.card-title {
+  color: #2563eb;
+  font-weight: bold;
+}
+
+.table {
+  background: #f1f5f9;
+  color: #2563eb;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.table-dark th {
+  background: #2563eb !important;
+  color: #fff !important;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+  background: #e0e7ff;
+}
+
+.btn-primary {
+  background: linear-gradient(90deg, #2563eb 0%, #38bdf8 100%);
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  box-shadow: 0 2px 8px rgba(37,99,235,0.1);
+}
+.btn-primary:hover {
+  background: #2563eb;
+  color: #fbbf24;
+}
+
+h2, h3, h4, h5 {
+  color: #2563eb;
+  font-weight: bold;
+}
+
+a {
+  color: #38bdf8;
+  text-decoration: none;
+}
+a:hover {
+  color: #fbbf24;
+  text-decoration: underline;
+}
+
+body {
+  color: #334155;
+}
 .App {
   text-align: center;
 }
@@ -13,15 +79,20 @@
   }
 }
 
+
 .App-header {
-  background-color: #282c34;
+  background: linear-gradient(135deg, #4f8cff 0%, #6ee7b7 100%);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #fff;
+}
+
+body {
+  background: linear-gradient(120deg, #f8fafc 0%, #e0e7ff 100%);
 }
 
 .App-link {
