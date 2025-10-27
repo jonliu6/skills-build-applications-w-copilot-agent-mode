@@ -95,8 +95,6 @@ DATABASES = {
             'port': 27017,
             'username': '',
             'password': '',
-            'authSource': 'admin',
-            'authMechanism': '',
         },
     }
 }
